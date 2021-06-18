@@ -11,6 +11,7 @@ public class MainApp {
 		student.getName();
 		student.getAge();
 
+		System.out.println("a");
 		try {
 			student.printThrowException();
 		} catch (Throwable e) {
